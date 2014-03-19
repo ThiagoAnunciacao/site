@@ -1,4 +1,4 @@
-Chef::Log.info("Running deploy/before_restart.rb")
+Chef::Log.info("Running deploy/before_migrate.rb")
 
 rails_env = new_resource.environment["RAILS_ENV"]
 
